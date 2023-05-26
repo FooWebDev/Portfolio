@@ -1,0 +1,93 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/iring.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+table, tr, td{
+    border: 0px solid black;
+    opacity: 100%
+}
+.table2{
+    width: 70%;
+}
+table{
+    width: 90%;
+}
+tr{
+    height: 40px;
+}
+.Peach{
+    background-color: peachpuff;
+    text-align: center;
+    color: black;
+    border-radius: 90%;
+    font-size: 0.4rem
+}
+.sky{
+    background-color: skyblue;
+    text-align: center;
+    border-radius: 90%;
+    font-size: 0.4rem
+}
+.pink{
+    background-color: pink;
+    text-align: center;
+    border-radius: 90%;
+    font-size: 0.4rem
+}
+.yellow{
+    background-color: rgb(230, 230, 164);
+    text-align: center;
+    color: black;
+    border-radius: 90%;
+    font-size: 0.4rem
+}
+.green{
+    background-color: rgb(201, 162, 162);
+    text-align: center;
+    color: black;
+    border-radius: 90%;
+    font-size: 0.4rem
+}
+.number{
+    background-color: lightgrey;
+    font-size: xx-small;
+    text-align: center;
+    color: red;
+    border-radius: 90%;
+}
+.label {
+    text-align: center;
+}
+
+/*hover*/
+.Peach:hover{
+    transform: scale(2);
+}
+.yellow:hover{
+    transform: scale(2);
+}
+.pink:hover{
+    transform: scale(2);
+}
+.number:hover{
+    transform: scale(2);
+}
+.sky:hover{
+    transform: scale(2);
+}
+.green:hover{
+    transform: scale(2);
+}
+h1{
+    text-align: center;
+    animation: scrolling 15s linear infinite;
+    color: red;
+}

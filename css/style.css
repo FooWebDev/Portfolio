@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(../images/cute.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.nav-link:hover
+{
+    transform: scale(1.2);  
+}
+.Home:hover
+{ 
+    
+    transform: scale3d(1.2);
+    color: blue
+}
+.About:hover
+{ 
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale3d(1.2);
+    color: blue
+}
+img{
+    max-width: 100%;
+}
+.gallery{
+    background-color: #dbddf1;
+    padding: 80px;
+}
+.gallery img{
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+#galler-modal .modal-img{
+    width: 100%;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/2.png);
+    background-size: cover;
+}
+form{
+    color: #fff;
+    width: 60%;
+    margin: 30px auto;
+    background-color: rgb(0,0,0,0.7);
+    border-radius: 8px;
+}
+form h1{
+    text-align: center;
+    padding-top: 45px;
+}
+form.details{
+    padding: 55px 55px 0 55px;
+    font-size: 20px;
+}
+form.details input{
+    width: 274px;
+    height: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+}
+.details .align
+{
+   margin-left: 50px;
+}
+.details .alignment{
+    float: right;
+    position: relative;
+    right: 49px;
+    bottom: 16px;
+}
+.details .dates #date
+{
+    float: right;
+    position: relative;
+    right: 300px; 
+    bottom: 18px;
+}
+
+.details .dates
+{
+    position: relative;
+    bottom: 68px;
+}
+::placeholder
+{
+    font-size: 1rem;
+}
+.radio
+{
+    padding: 55px;
+    font-size: 20px;
+}
+input[type="radio"]
+{
+    width: 25px;
+    height: 20px;
+    column-rule: #001858;
+}
+table{
+    border-collapse: collapse;
+    empty-cells: hide;
+    color: black;
+}
+tr table{
+    width: 17vw;
+    display: inline-block;
+}
+table th,td{
+    padding:11px;
+    font-size: 15px;
+    width: 5vw;
+    text-align: center;
+    border: 1px solid #c3cad8;
+}
+table tr th{
+    background-color: #dbddf1;
+}
+.questions{
+    padding: 55px;
+    font-size: 20px;
+}
+span{
+    font-size: 1rem;
+}
+.feedback{
+    padding: 10px;
+    font-size: 1rem;
+}
+.btn
+{
+    padding: 35px 0 50px 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+form button{
+    padding: 15px;
+    font-size: 18px;
+    width: 10em;
+    background-color: linear-gradient(0eg,#fc8d83 0, #e4685d);
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.col:hover {
+    transform: scale(1.9);
+}
